@@ -62,9 +62,6 @@ const Weather = () => {
             console.error("Error in fetching weather data" , error);
         }
     }
-    // useEffect(() => {
-    //     search('');
-    // }, [])
 
   return (
     <div className='weather'>
